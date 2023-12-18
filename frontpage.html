@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murals of Brande</title>
+    <link rel="stylesheet" href="frontpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+        }
+
+      
+        
+    </style>
+
+</head>
+<body>
+        <!--Header and subhader-->
+    <h1>A Mural Oddysey to Brande </h1>
+    <h2>Uncover hidden gems, explore urban masterpieces, and indulge your passion for creativity in the open air. Join us on a free captivating journey through the streets, where every mural tells a unique story.</h2>
+    
+    <!--button to explore-->
+    <button><a href="mural1.html">Explore</a></button>
+
+    <!--navigation-->
+  <div class="container">
+    <div class="navbar">
+        <a href="frontpage.html">
+            <img src="images/Screenshot_2023-12-09_at_16.59.46-removebg-preview.png" class="logo" alt="brickwall">
+        </a>
+        <span class="burger-menu" onclick="toggleNav()">☰</span>
+        <nav>
+            <ul>
+              <li><a href="frontpage.html">Home</a></li>
+                <li><a href="mural1.html">Murals</a></li>
+                <li><a href="404.html">Locations</a></li>
+                <li><a href="urban.html">Urban Impressions 2024</a></li>
+                <li><a href="404.html">EN/DK</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+  </div>
+
+  <!--burger menu only shown on smaller devices-->
+  <script>
+    function toggleNav() {
+        var nav = document.querySelector('nav ul');
+        nav.classList.toggle('show');
+    }
+</script>
+</body>
+</html>
